@@ -1,0 +1,9 @@
+document.getElementById('registerForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Patient registered successfully!');
+});
+
+document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  alert('Appointment booked successfully!');
+});
